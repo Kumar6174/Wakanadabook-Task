@@ -1,16 +1,55 @@
+# Wakanadabook Task
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+The project demonstrates a **skeleton loader** with a dynamic **animated shimmer effect**, along with **search** and **sort** functionalities for enhanced user experience.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## Key Features
+- Animated shimmer effect
+- Visually appealing loading placeholder
+- Clean alignment for multiple components
+- Fully responsive layout
+- Supports skeleton loading for banners, tiles, and lists
+- Lightweight and customizable
+- Cross-platform support for Android and iOS
+- **Search feature to filter products dynamically**
+- **Sort feature with multiple sorting options (A-Z, Z-A, price, etc.)**
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+---
+
+## Getting Started
+
+> **Note**: Ensure you’ve completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+
+### Step 1: Clone the Repository
+
+To clone this project, run the following command in your terminal:
+
+```bash
+git clone https://github.com/Kumar6174/Wakanadabook-Task.git
+cd Wakanadabook-Task
+```
+
+### Step 2: Install Dependencies
+
+Install all required dependencies by running:
+
+```bash
+# Using npm
+npm install
+
+# OR using Yarn
+yarn install
+```
+
+### Step 3: Start Metro
+
+First, you will need to run Metro, the JavaScript build tool for React Native.
 
 To start the Metro dev server, run the following command from the root of your React Native project:
 
-```sh
+```bash
 # Using npm
 npm start
 
@@ -18,80 +57,51 @@ npm start
 yarn start
 ```
 
-## Step 2: Build and run your app
+### Step 4: Build and Run Your App
 
 With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
+>## Android
+```bash
 # Using npm
 npm run android
 
 # OR using Yarn
 yarn android
 ```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
+>## iOS
+```bash
 # Using npm
 npm run ios
 
 # OR using Yarn
 yarn ios
 ```
+# Features
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+#### Animated Shimmer Effect
+>#### A dynamic shimmer effect provides a visually engaging way to simulate content loading.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+#### Multiple Skeleton Designs
+>#### Includes skeleton loaders for:
 
-## Step 3: Modify your app
+>##### Banner tiles
+>##### Square image placeholders
+>##### Text lines
 
-Now that you have successfully run the app, let's make changes!
+#### Cross-Platform Support
+>#### Works seamlessly on both Android and iOS platforms.
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+#### Search Functionality
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+>#### Allows users to dynamically filter products by name.
+>#### Updates the displayed products in real-time as the user types.
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+#### Sort Functionality
 
-## Congratulations! :tada:
+>#### Offers multiple sorting options:
+>##### Ascending and Descending by ID
+>##### Alphabetical (A-Z and Z-A)
+>##### Price (High to Low, Low to High)
+>#### Sort options are displayed horizontally for easy access.
 
-You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
